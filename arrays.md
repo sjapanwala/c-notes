@@ -121,3 +121,32 @@ int arr[5];
 *p = arr;
 p++; // this will incremenet the array by one
 ```
+
+# Multidimensional Arrays 
+```c
+int arr[3][4]
+```
+- this array above creates an array with 3 rows, and 4 columns
+- something similiar to this
+```txt
+arr: [0,0][0,1][0,2][0,3]  <- Row 0
+     [1,0][1,1][1,2][1,3]  <- Row 1
+     [2,0][2,1][2,2][2,3]  <- Row 2
+
+```
+- but memory wise, a 2d array is stored as one continuous memory block
+- `Memory: [0,0][0,1][0,2][0,3][1,0][1,1][1,2][1,3][2,0][2,1][2,2][2,3]`
+- now accessing a pointer in a sd array is somewhat similiar to how it would be in regular array
+```c
+int arr[3][4];       // we are initializing an array here, 4x3 
+int *p = &arr[0][0]; // now here we are assigning a pointer to the very first element of the array
+int (*row_p)[4] = arr; // here we are appointing to the entire row
+
+```
+- moving through pointers is the same way it would work in a regular array
+```c
+// moving through an arrays
+p++; // moves from one element to the next
+
+row_p++; //moving from row to the next
+```
