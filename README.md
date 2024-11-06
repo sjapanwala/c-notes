@@ -1,11 +1,21 @@
-# c-notes
-my c notes from CMPUT 201, no projects or assignments are uploaded. Just notes for my own reference
+# CMPUT 201 Notes - Understanding Unix Operating Systems and > [!CAUTION]
+> [!WARNING]
+> These are notes i have created, they are my (Saaim Japanwala's) intellectual property. You are authorized to use them to study or understand topics, but plagirism is not permitted.
 
-Midterm 2 Chapters
-- 11 - Pointers
-- 12 - Pointers and Arrays
-- 13 - Strings 
-- 14 - The Pre Processor 
-- 15 - Writing Large Programs
-- 16 - Structs 
-- 17 - Advanced Usage of Pointers 
+## Index
+### Section 1
+- [Unix Commands](section1/unix_commands.md)
+- [Basics of C](section1/understanding.md)
+- [Selection Statements](section1/selection_statements.md)
+- [Functions](section1/functions.md)
+
+## Section 2
+- [Recursion](section2/recursion.md)
+- [Pointers](section2/pointers.md)
+- [Advanced Pointers](section2/advanced_pointers.md)
+- [Arrays](section2/arrays.md)
+- [Strings](section2/strings.md)
+- [Larger C Programs](section2/headers.md)
+- [Makefiles](section2/makefile.md)
+- [Structs, Unions, Enums](section2/structs.md)
+
