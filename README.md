@@ -8,6 +8,7 @@
 - [Basics of C](section1/understanding.md)
 - [Selection Statements](section1/selection_statements.md)
 - [Functions](section1/functions.md)
+- [Formula Sheet](section1/Scanf%202.pdf)
 
 ## Section 2
 - [Recursion](section2/recursion.md)
