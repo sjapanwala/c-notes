@@ -1,4 +1,4 @@
-# CMPUT 201 Notes - Understanding Unix Operating Systems and > [!CAUTION]
+# CMPUT 201 Notes - Understanding Unix Operating Systems and C
 > [!WARNING]
 > These are notes i have created, they are my (Saaim Japanwala's) intellectual property. You are authorized to use them to study or understand topics, but plagirism is not permitted.
 
