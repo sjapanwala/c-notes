@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {  
-  char a[] = "Hello World!";
-  printf("hello world, %s\n",a );
+  float a= 42.24;
+  printf("hello world, %.5f\a",a );
   return 0;
 }
 
