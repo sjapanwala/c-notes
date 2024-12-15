@@ -133,7 +133,7 @@ the `%place_holder` is the place holder that will be used to store the input, th
 
 following this format ensures that the scanf function will read the variable_name in the place_holder location in the string.
 
-> [!> [!IMPORTANT]
+> [!IMPORTANT]
 > Scanf ignores white spaces, so (42                         65 is = to 42 65)
 
 ```c
