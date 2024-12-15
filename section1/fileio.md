@@ -124,3 +124,30 @@ esacape codes allow you to manipulte the formatting of your string without alter
 `scanf` is the opposite of `printf`, it reads input from the console and stores it into a variable, to use `scanf` we have to follow a guideline
 
 `scanf("string %place_holder\n", &variable_name);`
+
+the `string` can be the prompt you would like to output
+
+the `&variable_name` is the address of the variable, where the variable value will be stored
+
+the `%place_holder` is the place holder that will be used to store the input, this needs to match the type that you are expecting to be recieved. if you set this to `%d` and the input is recieved as a char, it will output unexpectedly
+
+following this format ensures that the scanf function will read the variable_name in the place_holder location in the string.
+
+> [!> [!IMPORTANT]
+> Scanf ignores white spaces, so (42                         65 is = to 42 65)
+
+```c
+#include <stdio.h>
+
+int main() {
+    int a;
+    scanf("%d", &a);
+    printf("The variable a is %d\n", a);
+    return 0;
+}
+
+/* the output will be similiar to this...
+* if the user inputs 42
+* then the value of a will be printed as 42
+*/
+```
