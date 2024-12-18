@@ -6,4 +6,3 @@ int main() {
   printf("%.2f\n", a);
   return 0;
 }
-
